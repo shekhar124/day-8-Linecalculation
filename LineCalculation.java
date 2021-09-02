@@ -6,6 +6,9 @@ public class LineCalculation {
 
 	public static void main(String[] args) {
 		System.out.println("WELL COME TO LINE COMPARISON");
+		line();
+	}
+		public static void  line() {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("enter the value of x1");
 		double x1 = scan.nextDouble();
@@ -37,6 +40,6 @@ public class LineCalculation {
 			System.out.println("line 2 is greater than line 1");
 		}
 
-	}
+	}}
 
-}
+
